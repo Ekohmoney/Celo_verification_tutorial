@@ -10,7 +10,12 @@ In this tutorial, we will walk through the process of using Celo's identity veri
   - [Table of Contents](#table-of-contents)
   - [Prerequisites](#prerequisites)
   - [Tutorial](#tutorial)
-    - [Step 1: Set up your development environment](#step-1:set-up-your-development-environment)
+    - [Step 1: Set up your development environment](#step-1-:set-up-your-development-environment)
+    - [Step 2: Create a Celo account](#step-2-:-create-a-celo-account)
+    - [Step 3: Fund your account](#step-3-:-fund-your-account)
+    - [Step 4: Set up your web3 application](#step-4-:-set-up-your-web3-application)
+    - [Step 5: Import the ContractKit and initialize it with the Celo network](#step-5-:-import-the-contractKit-and-initialize-it-with-the-celo-network)
+    - [Step 6: Implement the Identity verification system](#step-6-:-implement-the-identity-verification-system)
   
 
 ## Prerequisites
