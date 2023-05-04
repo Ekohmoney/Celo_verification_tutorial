@@ -4,12 +4,29 @@ Celo is a blockchain platform that provides a built-in identity verification sys
 
 In this tutorial, we will walk through the process of using Celo's identity verification system to implement identity verification in a web3 application.
 
+## Table of Contents
+- [Celo_verification_tutorial](#celo_verification_tutorial)
+  - [Introduction](#introduction)
+  - [Table of Contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [Tutorial](#tutorial)
+    - [Step 1: Set up your development environment](#step-1-set-up-your-development-environment)
+    - [Step 2: Create a Celo account](#step-2-create-a-celo-account)
+    - [Step 3: Fund your account](#step-3-fund-your-account)
+    - [Step 4: Set up your web3 application](#step-4-set-up-your-web3-application)
+    - [Step 5: Import the ContractKit and initialize it with the Celo network](#step-5-import-the-contractKit-and-initialize-it-with-the-celo-network)
+    - [Step 6: Implement the Identity verification system](#step-6-implement-the-identity-verification-system)
+    - [Conclusion](#conclusion)
+  
+
 ## Prerequisites
 To follow along with this tutorial, you should have a basic understanding of web3 development and the JavaScript programming language. You should also have the following tools installed on your computer:
 
 - Node.js
 - The Celo CLI
 - React
+
+##Tutorial
 ### Step 1: Set up your development environment
 First, you need to set up your development environment. You can install the Celo CLI by running the following command in your terminal:
 
@@ -55,7 +72,7 @@ import { ContractKit } from '@celo/contractkit'``
 
 This code creates a new instance of the ``ContractKit`` and initializes it with the Celo testnet.
 
-### Step 6: Implement the identity verification system
+### Step 6: Implement the Identity verification system
 Now that you have your web3 application set up and the ``ContractKit`` initialized, you can implement the identity verification system.
 
 Celo's identity verification system works by using a smart contract called ``Attestations``. Users can request attestations from other users, which are then stored on the Celo blockchain. These attestations can be used to prove identity without revealing personal information.
@@ -65,3 +82,6 @@ To request an attestation, you can use the ``Attestations`` smart contract's ``r
 ``
 async function requestAttestation() {
   const phoneHash = kit.web3.utils.sha3('123456``
+
+### Conclusion
+The tutorial provides a clear and concise step-by-step guide on implementing identity verification using Celo's built-in identity verification system. It includes all the necessary prerequisites and setup required for a beginner to follow along.Overall, it is a useful resource for developers who want to integrate identity verification into their web3 applications using Celo.
