@@ -6,16 +6,17 @@ In this tutorial, we will walk through the process of using Celo's identity veri
 
 ## Table of Contents
 - [Celo_verification_tutorial](#celo_verification_tutorial)
- - [Introduction](#introduction)
+  - [Introduction](#introduction)
   - [Table of Contents](#table-of-contents)
   - [Prerequisites](#prerequisites)
   - [Tutorial](#tutorial)
     - [Step 1: Set up your development environment](#step-1-set-up-your-development-environment)
-    - [Step 2: Create a Celo account](#step-2-:-create-a-celo-account)
-    - [Step 3: Fund your account](#step-3-:-fund-your-account)
-    - [Step 4: Set up your web3 application](#step-4-:-set-up-your-web3-application)
-    - [Step 5: Import the ContractKit and initialize it with the Celo network](#step-5-:-import-the-contractKit-and-initialize-it-with-the-celo-network)
-    - [Step 6: Implement the Identity verification system](#step-6-:-implement-the-identity-verification-system)
+    - [Step 2: Create a Celo account](#step-2-create-a-celo-account)
+    - [Step 3: Fund your account](#step-3-fund-your-account)
+    - [Step 4: Set up your web3 application](#step-4-set-up-your-web3-application)
+    - [Step 5: Import the ContractKit and initialize it with the Celo network](#step-5-import-the-contractKit-and-initialize-it-with-the-celo-network)
+    - [Step 6: Implement the Identity verification system](#step-6-implement-the-identity-verification-system)
+    - [Conclusion](#conclusion)
   
 
 ## Prerequisites
@@ -82,3 +83,5 @@ To request an attestation, you can use the ``Attestations`` smart contract's ``r
 async function requestAttestation() {
   const phoneHash = kit.web3.utils.sha3('123456``
 
+### Conclusion
+The tutorial provides a clear and concise step-by-step guide on implementing identity verification using Celo's built-in identity verification system. It includes all the necessary prerequisites and setup required for a beginner to follow along.Overall, it is a useful resource for developers who want to integrate identity verification into their web3 applications using Celo.
